@@ -1,0 +1,38 @@
+.part {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+    align-items: center;
+}
+
+.part-money {
+    background-color: transparent;
+    font-size: 0.8rem;
+    border: white 1px solid;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+
+@media (max-width: 426px) {
+    .part-money {
+        width: 100%;
+    }
+}
+
+.part-country {
+    text-align: center;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    font-weight: bold;
+
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-overflow: '';
+}
+

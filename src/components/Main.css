@@ -1,0 +1,11 @@
+.main {
+    margin: 50px 50px;
+    border-radius: 10px;
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    justify-content: space-around;
+    box-shadow: 0 0 10px #676767;
+    align-items: center;
+}
